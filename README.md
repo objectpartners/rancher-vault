@@ -15,3 +15,7 @@ The script queries the Rancher meta-data API to obtain the cluster IP address fo
 The `VAULT_CLUSTER_ADDR` environment variable is then set to a default value of `https://${IP}:8201`.
 Both the protocol and port can be overridden by supplying `VAULT_CLUSTER_ADDR_PROTO` and `VAULT_CLUSTER_ADDR_PORT`
 environment variables respectively.
+
+## Using
+
+This repo is published to Docker Hub as `objectpartners/rancher-vault`
